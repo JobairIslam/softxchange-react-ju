@@ -1,5 +1,6 @@
 import React from "react";
 import Image from "next/image";
+import Link from "next/link";
 export default function Header() {
   return (
     <header>
@@ -35,10 +36,10 @@ export default function Header() {
               <div className="dropdown-content">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="features.html">Features &amp; Functionality</a>
+                    <Link href="/features">Features &Functionality</Link>
                   </li>
                   <li>
-                    <a href="api.html">APIs &amp; Integrations</a>
+                    <a href="api.html">APIs & Integrations</a>
                   </li>
                   <li>
                     <a href="market-surveillance.html">Market Surveillance</a>
@@ -48,10 +49,10 @@ export default function Header() {
               <div className="dropdown-nav">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="features.html">Features &amp; Functionality</a>
+                    <a href="features.html">Features &Functionality</a>
                   </li>
                   <li>
-                    <a href="api.html">APIs &amp; Integrations</a>
+                    <a href="api.html">APIs & Integrations</a>
                   </li>
                   <li>
                     <a href="market-surveillance.html">Market Surveillance</a>
