@@ -2,6 +2,7 @@ import Image from "next/image";
 import Header from "./components/Header";
 import Featured from "./components/Featured";
 import FeaturesCard from "./components/FeaturesCard";
+import Footer from "./components/Footer";
 export default function Home() {
   return (
     <div>
@@ -180,7 +181,12 @@ export default function Home() {
           <div className="performance-wrapper-top">
             <div className="performance-wrap performance-left">
               <div className="performance-img-area">
-                <img src="/img/perform1.svg" alt="perform" />
+                <Image
+                  width={608}
+                  height={470}
+                  src="/img/perform1.svg"
+                  alt="perform"
+                />
               </div>
               <div className="overlay">
                 <h4>Performance Metrix</h4>
@@ -220,19 +226,39 @@ export default function Home() {
               </p>
               <div className="li-wrap">
                 <span className="performance-li">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Designated Contract Markets (DCM)
                 </span>
                 <span className="performance-li">
-                  <img src="/img/check.svg" alt="check svg" /> Swap Execution
-                  Facilities (SEF)
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />{" "}
+                  Swap Execution Facilities (SEF)
                 </span>
                 <span className="performance-li">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Alternative Trading Systems (ATS)
                 </span>
                 <span className="performance-li performance-li-last">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Request for Quote (RFQ) Markets
                 </span>
               </div>
@@ -252,19 +278,39 @@ export default function Home() {
               </p>
               <div className="li-wrap">
                 <span className="performance-li">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Futures, Options, Swaps
                 </span>
                 <span className="performance-li">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Environment Commodities (ESG)
                 </span>
                 <span className="performance-li">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Predictions and Events
                 </span>
                 <span className="performance-li performance-li-last">
-                  <img src="/img/check.svg" alt="check svg" />
+                  <Image
+                    width={20}
+                    height={20}
+                    src="/img/check.svg"
+                    alt="check svg"
+                  />
                   Equities, Fixed Income, Rates
                 </span>
               </div>
@@ -274,34 +320,60 @@ export default function Home() {
             </div>
             <div className="performance-wrap performance-right">
               <div className="performance-img-area">
-                <img src="/img/perform2.svg" alt="perform" />
+                <Image
+                  width={608}
+                  height={470}
+                  src="/img/perform2.svg"
+                  alt="perform"
+                />
               </div>
               <div className="overlay">
                 <h4>Asset Classes</h4>
                 <div className="overlay-card">
                   <div className="overlay-single">
-                    <img src="/img/overlay-icon.svg" alt="overlay icon" />
+                    <Image
+                      width={24}
+                      height={24}
+                      src="/img/overlay-icon.svg"
+                      alt="overlay icon"
+                    />
                     <h5>cash</h5>
                   </div>
                   <span>1st priority</span>
                 </div>
                 <div className="overlay-card">
                   <div className="overlay-single">
-                    <img src="/img/overlay-icon2.svg" alt="overlay icon" />
+                    <Image
+                      width={24}
+                      height={24}
+                      src="/img/overlay-icon2.svg"
+                      alt="overlay icon"
+                    />
                     <h5>Equities</h5>
                   </div>
                   <span>2nd priority</span>
                 </div>
                 <div className="overlay-card">
                   <div className="overlay-single">
-                    <img src="/img/overlay-icon3.svg" alt="overlay icon" />
+                    <Image
+                      width={24}
+                      height={24}
+                      src="/img/overlay-icon3.svg"
+                      alt="overlay icon"
+                    />
                     <h5>Fixed Income</h5>
                   </div>
                   <span>3rd priority</span>
                 </div>
                 <div className="overlay-card">
+                  20
                   <div className="overlay-single">
-                    <img src="/img/overlay-icon4.svg" alt="overlay icon" />
+                    <Image
+                      width={24}
+                      height={24}
+                      src="/img/overlay-icon4.svg"
+                      alt="overlay icon"
+                    />
                     <h5>Alternative</h5>
                   </div>
                   <span>4th priority</span>
@@ -330,7 +402,7 @@ export default function Home() {
                 viewBox="0 0 48 48"
                 fill="none"
               >
-                <g clip-path="url(#clip0_509_1374)">
+                <g clipPath="url(#clip0_509_1374)">
                   <path
                     d="M43 46H5C3.67441 45.9984 2.40356 45.4711 1.46622 44.5338C0.528882 43.5964 0.00158786 42.3256 0 41L0 7C0 4.244 2.242 2 5 2H43C45.758 2 48 4.244 48 7V41C48 43.756 45.758 46 43 46ZM5 4C3.346 4 2 5.346 2 7V41C2 42.654 3.346 44 5 44H43C44.654 44 46 42.654 46 41V7C46 5.346 44.654 4 43 4H5Z"
                     fill="#010E28"
@@ -379,7 +451,7 @@ export default function Home() {
                 viewBox="0 0 48 48"
                 fill="none"
               >
-                <g clip-path="url(#clip0_509_1387)">
+                <g clipPath="url(#clip0_509_1387)">
                   <path
                     d="M15 30C6.728 30 0 23.272 0 15C0 6.728 6.728 0 15 0C23.272 0 30 6.728 30 15C30 15.202 29.998 15.378 29.972 15.582C29.9577 15.7131 29.9173 15.8399 29.8532 15.9551C29.7891 16.0704 29.7026 16.1716 29.5988 16.2528C29.495 16.3341 29.376 16.3938 29.2487 16.4283C29.1215 16.4629 28.9887 16.4716 28.858 16.454C28.7276 16.4382 28.6016 16.3968 28.4871 16.3322C28.3727 16.2676 28.2722 16.1811 28.1912 16.0777C28.1102 15.9742 28.0504 15.8558 28.0152 15.7293C27.98 15.6027 27.9701 15.4704 27.986 15.34C28.002 15.22 28 15.118 28 15C28 7.832 22.168 2 15 2C7.832 2 2 7.832 2 15C1.998 22.196 7.882 28.02 15.082 28C15.168 28 15.25 27.998 15.34 27.988C15.4704 27.9721 15.6027 27.9821 15.7292 28.0173C15.8558 28.0525 15.9742 28.1123 16.0776 28.1933C16.181 28.2743 16.2675 28.3748 16.3321 28.4892C16.3967 28.6036 16.4381 28.7296 16.454 28.86C16.4699 28.9904 16.4599 29.1227 16.4247 29.2492C16.3895 29.3758 16.3297 29.4942 16.2487 29.5976C16.1677 29.701 16.0672 29.7875 15.9528 29.8521C15.8384 29.9167 15.7124 29.9581 15.582 29.974C15.3887 29.9946 15.1944 30.0033 15 30Z"
                     fill="#010E28"
@@ -444,7 +516,7 @@ export default function Home() {
                 viewBox="0 0 48 48"
                 fill="none"
               >
-                <g clip-path="url(#clip0_509_1404)">
+                <g clipPath="url(#clip0_509_1404)">
                   <path
                     d="M47 48H1C0.734784 48 0.48043 47.8946 0.292893 47.7071C0.105357 47.5196 0 47.2652 0 47C0 46.7348 0.105357 46.4804 0.292893 46.2929C0.48043 46.1054 0.734784 46 1 46H47C47.2652 46 47.5196 46.1054 47.7071 46.2929C47.8946 46.4804 48 46.7348 48 47C48 47.2652 47.8946 47.5196 47.7071 47.7071C47.5196 47.8946 47.2652 48 47 48Z"
                     fill="#010E28"
@@ -466,8 +538,8 @@ export default function Home() {
               </svg>
               <h4>Burgeoning Market Frontiers</h4>
               <p>
-                Quickly establish global exchanges with SoftXchange's reliable
-                multi-asset platform for emerging markets.
+                Quickly establish global exchanges with SoftXchange&#39;s
+                reliable multi-asset platform for emerging markets.
               </p>
               <a href="#" className="btn-tertiary">
                 Learn more
@@ -493,7 +565,7 @@ export default function Home() {
                 viewBox="0 0 48 48"
                 fill="none"
               >
-                <g clip-path="url(#clip0_509_1417)">
+                <g clipPath="url(#clip0_509_1417)">
                   <path
                     d="M24 40C15.178 40 8 32.822 8 24C8 15.178 15.178 8 24 8C32.822 8 40 15.178 40 24C40 32.822 32.822 40 24 40ZM24 10C16.28 10 10 16.28 10 24C10 31.718 16.28 38 24 38C31.72 38 38 31.718 38 24C38 16.28 31.72 10 24 10Z"
                     fill="#010E28"
@@ -532,7 +604,7 @@ export default function Home() {
               <h4>Worldwide Trading Firms</h4>
               <p>
                 Elevate tech for order flow and seize emerging opportunities
-                with EP3's adaptability.
+                with EP3&#39;s adaptability.
               </p>
               <a href="#" className="btn-tertiary">
                 Learn more
@@ -568,7 +640,12 @@ export default function Home() {
           <div className="services-wrapper">
             <div className="services-inner">
               <div className="services-img-area">
-                <img src="/img/services1.svg" alt="services" />
+                <Image
+                  width={590}
+                  height={440}
+                  src="/img/services1.svg"
+                  alt="services"
+                />
                 <div className="overlay overlay-inside">
                   <h4>Financials Graph</h4>
                   <div className="chart-line"></div>
@@ -595,7 +672,12 @@ export default function Home() {
             </div>
             <div className="services-inner">
               <div className="services-img-area">
-                <img src="/img/services2.svg" alt="services" />
+                <Image
+                  width={590}
+                  height={440}
+                  src="/img/services2.svg"
+                  alt="services"
+                />
                 <div className="overlay overlay-inside">
                   <h4>Total Changes</h4>
                   <div className="chart-bar2"></div>
@@ -608,9 +690,9 @@ export default function Home() {
                 </div>
                 <h3>Growth Through Dedicated Support Services</h3>
                 <p>
-                  Our team of experts is dedicated to ensuring your platform's
-                  seamless performance, offering soft resolutions and innovative
-                  solutions to any challenges that may arise.
+                  Our team of experts is dedicated to ensuring your
+                  platform&#39;s seamless performance, offering soft resolutions
+                  and innovative solutions to any challenges that may arise.
                 </p>
                 <a href="support-services.html" className="btn btn-secondary">
                   Learn more
@@ -620,6 +702,120 @@ export default function Home() {
           </div>
         </div>
       </div>
+      {/* STORIES */}
+      <div className="stories">
+        <div className="container">
+          <div className="heading-wrapper">
+            <h2>
+              Real-World Success Stories Unveiling the Impact of Our Solutions
+            </h2>
+            <p>
+              Discover the tangible outcomes of our solutions through real-world
+              success stories
+              <br />
+              that showcase our impact in action.
+            </p>
+          </div>
+          <div className="stories-wrapper">
+            <div className="stories-img">
+              <Image
+                width={607}
+                height={358}
+                src="/img/stories1.svg"
+                alt="stories"
+              />
+            </div>
+            <div className="stories-content">
+              <h3>
+                Shaping the Financial Landscape: Unveiling the American
+                Financial Exchange
+              </h3>
+              <p>
+                This case study unveils a narrative of collaboration,
+                innovation, and the power of a strategic partnership that has
+                empowered American Financial Exchange to navigate challenges,
+                drive efficiency, and achieve remarkable outcomes in the
+                financial landscape.
+              </p>
+              <a href="/case-studies-single" className="btn-tertiary">
+                Learn more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12.6502 11.975L7.7002 7.02498L9.3752 5.34998L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+                    fill="#0553F0"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div className="stories-wrapper stories-wrapper-bottom">
+            <div className="stories-img">
+              <Image
+                width={607}
+                height={358}
+                src="/img/stories2.svg"
+                alt="stories"
+              />
+            </div>
+            <div className="stories-content">
+              <h3>
+                Navigating Success: Unveiling the Triumph of APAC Bourse&#39;s
+                On-Prem Exchange Platform
+              </h3>
+              <p>
+                Discover how APAC Bourse leveraged cutting-edge innovations to
+                navigate challenges, capitalize on opportunities, and drive
+                unprecedented growth in the exchange landscape. The power of
+                partnership, innovation, and the on achieving remarkable
+                outcomes.
+              </p>
+              <a href="/case-studies-single" className="btn-tertiary">
+                Learn more
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                >
+                  <path
+                    d="M12.6502 11.975L7.7002 7.02498L9.3752 5.34998L16.0002 11.975L9.3752 18.6L7.7002 16.925L12.6502 11.975Z"
+                    fill="#0553F0"
+                  />
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      {/* CONTACT */}
+      <section className="contact">
+        <div className="container">
+          <div className="heading-wrapper">
+            <h2>SoftXchange Simplifying Exchange Endeavors</h2>
+            <p>
+              Explore how we empowers exchange operators across diverse markets
+              and assets.
+            </p>
+          </div>
+          <div>
+            <a href="contact.html" className="btn btn-primary">
+              Contact Us
+            </a>
+            <a href="about.html" className="btn btn-secondary">
+              About Us
+            </a>
+          </div>
+        </div>
+      </section>
+      {/* FOOTER */}
+      <Footer />
     </div>
   );
 }
