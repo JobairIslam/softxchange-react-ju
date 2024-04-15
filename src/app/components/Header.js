@@ -49,10 +49,10 @@ export default function Header() {
               <div className="dropdown-nav">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="features.html">Features &Functionality</a>
+                    <Link href="/features">Features &Functionality</Link>
                   </li>
                   <li>
-                    <a href="api.html">APIs & Integrations</a>
+                    <Link href="/api.h">APIs & Integrations</Link>
                   </li>
                   <li>
                     <a href="market-surveillance.html">Market Surveillance</a>
@@ -80,9 +80,9 @@ export default function Header() {
               <div className="dropdown-content dropdown-content2">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="professional-services.html">
+                    <Link href="/professional-services">
                       Professional Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <a href="support-services.html">Support Services</a>
