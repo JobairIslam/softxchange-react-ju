@@ -39,10 +39,10 @@ export default function Header() {
                     <Link href="/features">Features &Functionality</Link>
                   </li>
                   <li>
-                    <a href="api.html">APIs & Integrations</a>
+                    <Link href="/api">APIs & Integrations</Link>
                   </li>
                   <li>
-                    <a href="market-surveillance.html">Market Surveillance</a>
+                    <Link href="/market">Market Surveillance</Link>
                   </li>
                 </ul>
               </div>
