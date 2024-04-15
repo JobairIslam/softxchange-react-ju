@@ -663,7 +663,6 @@ export default function Home() {
       <Stories />
       {/* CONTACT */}
       <FeatureContacts />
-
       {/* FOOTER */}
       <Footer />
     </div>

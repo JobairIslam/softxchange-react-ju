@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <div className="container">
-        <a href="index.html">
+        <Link href="/">
           <Image
             src="/img/logo.png"
             width={200}
@@ -13,11 +13,11 @@ export default function Header() {
             className="brand-logo"
             alt="logo"
           />
-        </a>
+        </Link>
         <nav>
           <ul className="nav-ul">
             <li className="nav-li">
-              <a href="#" className="nav-link">
+              <Link href="#" className="nav-link">
                 solutions
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -32,7 +32,7 @@ export default function Header() {
                     d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                   />
                 </svg>
-              </a>
+              </Link>
               <div className="dropdown-content">
                 <ul className="dropdown-ul">
                   <li>
@@ -52,16 +52,16 @@ export default function Header() {
                     <Link href="/features">Features &Functionality</Link>
                   </li>
                   <li>
-                    <Link href="/api.h">APIs & Integrations</Link>
+                    <Link href="/api">APIs & Integrations</Link>
                   </li>
                   <li>
-                    <a href="market-surveillance.html">Market Surveillance</a>
+                    <Link href="/market">Market Surveillance</Link>
                   </li>
                 </ul>
               </div>
             </li>
             <li className="nav-li">
-              <a href="#" className="nav-link2">
+              <Link href="#" className="nav-link2">
                 services
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -76,7 +76,7 @@ export default function Header() {
                     d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                   />
                 </svg>
-              </a>
+              </Link>
               <div className="dropdown-content dropdown-content2">
                 <ul className="dropdown-ul">
                   <li>
@@ -85,25 +85,25 @@ export default function Header() {
                     </Link>
                   </li>
                   <li>
-                    <a href="support-services.html">Support Services</a>
+                    <Link href="/support-services">Support Services</Link>
                   </li>
                 </ul>
               </div>
               <div className="dropdown-nav">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="professional-services.html">
+                    <Link href="/professional-services">
                       Professional Services
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="support-services.html">Support Services</a>
+                    <Link href="/support-services">Support Services</Link>
                   </li>
                 </ul>
               </div>
             </li>
             <li className="nav-li">
-              <a href="#" className="nav-link3">
+              <Link href="#" className="nav-link3">
                 resources
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -118,30 +118,30 @@ export default function Header() {
                     d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                   />
                 </svg>
-              </a>
+              </Link>
               <div className="dropdown-content dropdown-content3">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="news.html">News &amp; Insights</a>
+                    <Link href="/news">News &amp; Insights</Link>
                   </li>
                   <li>
-                    <a href="case-studies.html">Case Studies</a>
+                    <Link href="/case">Case Studies</Link>
                   </li>
                 </ul>
               </div>
               <div className="dropdown-nav">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="news.html">News &amp; Insights</a>
+                    <Link href="news.html">News &amp; Insights</Link>
                   </li>
                   <li>
-                    <a href="case-studies.html">Case Studies</a>
+                    <Link href="/case">Case Studies</Link>
                   </li>
                 </ul>
               </div>
             </li>
             <li className="nav-li">
-              <a href="#" className="nav-link4">
+              <Link href="#" className="nav-link4">
                 company
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -156,38 +156,38 @@ export default function Header() {
                     d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"
                   />
                 </svg>
-              </a>
+              </Link>
               <div className="dropdown-content dropdown-content4">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="about.html">About Us</a>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="leadership.html">Leadership</a>
+                    <Link href="leadership.html">Leadership</Link>
                   </li>
                   <li>
-                    <a href="career.html">Careers</a>
+                    <Link href="career.html">Careers</Link>
                   </li>
                 </ul>
               </div>
               <div className="dropdown-nav">
                 <ul className="dropdown-ul">
                   <li>
-                    <a href="about.html">About Us</a>
+                    <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <a href="leadership.html">Leadership</a>
+                    <Link href="leadership.html">Leadership</Link>
                   </li>
                   <li>
-                    <a href="career.html">Careers</a>
+                    <Link href="career.html">Careers</Link>
                   </li>
                 </ul>
               </div>
             </li>
           </ul>
-          <a href="contact.html" className="btn btn-primary">
+          <Link href="contact.html" className="btn btn-primary">
             contact us
-          </a>
+          </Link>
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="16"
