@@ -163,10 +163,10 @@ export default function Header() {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="leadership.html">Leadership</Link>
+                    <Link href="/leadership">Leadership</Link>
                   </li>
                   <li>
-                    <Link href="career.html">Careers</Link>
+                    <Link href="/careers">Careers</Link>
                   </li>
                 </ul>
               </div>
@@ -176,16 +176,16 @@ export default function Header() {
                     <Link href="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link href="leadership.html">Leadership</Link>
+                    <Link href="/leadership">Leadership</Link>
                   </li>
                   <li>
-                    <Link href="career.html">Careers</Link>
+                    <Link href="/careers">Careers</Link>
                   </li>
                 </ul>
               </div>
             </li>
           </ul>
-          <Link href="contact.html" className="btn btn-primary">
+          <Link href="/contacts" className="btn btn-primary">
             contact us
           </Link>
           <svg
